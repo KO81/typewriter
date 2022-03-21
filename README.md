@@ -3,7 +3,7 @@
 typewriter variables
 
 # window.typeWriter = function (where, txt, speed, timeout)
-where = element where to write a given text.
+ * where = element where to write a given text.
 txt = text for writing out innerHTML or innerTEXT.
   * "txt" can be defined as => data-alttext="Son, a beautiful small town, where u for sure can meet som interessting people." 
 speed = how fast the text will be written.
