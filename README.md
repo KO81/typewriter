@@ -12,7 +12,7 @@ timeout = when to start writing text.
   * "timeout" can be defined as => data-textspeedtimeout="250"
 
 # other typewrier variables
-exsample "(<div id="feedbacks"><p class="card-text typewriter invisible" data-alttext="Son, a beautiful small town, where u for sure can meet som interessting people." data-textspeed="25" data-textspeedtimeout="250" data-texthuman="true" data-textafter="_" data-textclassremove="invisible" data-texttodo="feedbacks:height"></p></div>)"
+exsample "<div id="feedbacks"><p class="card-text typewriter invisible" data-alttext="Son, a beautiful small town, where u for sure can meet som interessting people." data-textspeed="25" data-textspeedtimeout="250" data-texthuman="true" data-textafter="_" data-textclassremove="invisible" data-texttodo="feedbacks:height"></p></div>"
 
 data-texthuman="true" => means the speed in which the text is written is different each time a letter was written.
 data-textafter="_" => means charaters to insert after each  letter was written, it gets removed after the last letter was written.
