@@ -95,3 +95,5 @@ window.typeWriter = function (where, txt, speed, timeout) {
     }
   };
 };
+document.getElementsByClassName('typewriter').forEach(el=>{if(el.innerHTML==''){towrite.push(el);};});
+typeWriter(towrite.shift());
