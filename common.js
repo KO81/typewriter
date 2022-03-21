@@ -4,6 +4,9 @@ date started: 22/2-2022
 last modified: 12/3-2022
 */
 var solve,solved,solve,towrite=[];
+window._ = function (el) {
+  return document.getElementById(el);
+};
 window.typeWriter = function (where, txt, speed, timeout) {
   var i = 0;
   if (where == null) {
